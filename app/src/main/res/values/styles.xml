@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item> <!-- 🎯 放大字體 -->
+        <item name="android:fontFamily">sans-serif-medium</item> <!-- 可選字體 -->
+    </style>
+
+    <style name="CapsuleSubmitButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">50dp</item>
+        <item name="android:backgroundTint">#FFD700</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="YellowTagButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">#FFE066</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minWidth">80dp</item>
+    </style>
+</resources>

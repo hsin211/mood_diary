@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8E7"
+    android:padding="16dp">
+
+
+
+    <!-- 呼吸步驟文字 -->
+    <TextView
+        android:id="@+id/tvStep"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="預備"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <!-- 倒數秒數 -->
+
+    <!-- 按鈕：開始 / 暫停 / 重置 -->
+    <TextView
+        android:id="@+id/tvCountdown"
+        android:layout_width="383dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:typeface="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:text="開始"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF5722"
+            android:text="暫停"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC107"
+            android:text="重置"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 圖片 Logo -->
+    <!-- 底部說明 -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="423dp"
+        android:layout_height="417dp"
+        android:layout_marginBottom="32dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baba" />
+
+
+</LinearLayout>

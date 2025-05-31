@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_diary"
+        android:title="心情日記"/>
+    <item android:id="@+id/nav_meditation"
+        android:title="呼吸冥想"/>
+    <item android:id="@+id/nav_stress_scale"
+        android:title="壓力指數量表" />
+    <item android:id="@+id/nav_hotline"
+        android:title="緊急支援專線"/>
+</menu>

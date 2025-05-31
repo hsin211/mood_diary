@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- 三顆心情按鈕 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="ExtraText">
+
+        <Button
+            android:id="@+id/btnHappyEdit"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="😊"
+            android:backgroundTint="#FFC107"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/btnSadEdit"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="😢"
+            android:backgroundTint="#FFC107"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnAngryEdit"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="😡"
+            android:backgroundTint="#FFC107"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <!-- 可輸入內容欄：★ 重點就是這行 -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etEditNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="修改內容..."
+        android:maxLines="6" />
+
+    <!-- 顯示目前選擇的心情 -->
+    <TextView
+        android:id="@+id/tvEditMood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp" />
+</LinearLayout>
