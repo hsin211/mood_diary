@@ -1,8 +1,8 @@
-# 📝 Diary App
+# 行動設計課程 - Diary App
 
 一個以心理健康為核心的 Android 應用程式，提供心情日記、呼吸冥想、壓力量表與緊急支援專線功能，幫助使用者照顧自己的心理狀態。
 
-## 📖 功能介紹
+## 功能介紹
 - **歡迎頁面 (WelcomeActivity)**  
   - 進入應用的起始頁，點擊「進入」按鈕即可進入主頁。
 
@@ -14,7 +14,7 @@
     -  **壓力指數量表**：自我檢測心理壓力狀態  
     -  **緊急支援專線**：快速取得心理協助管道  
 
-## 🛠️ 技術細節
+## 技術細節
 - **語言**: Kotlin  
 - **架構**: Android Fragment + Navigation Drawer  
 - **UI 元件**: Material Design (Toolbar, DrawerLayout, NavigationView)  
@@ -23,15 +23,22 @@
 ## 專案結構
 ```bash
 app/src/main/java/com/example/diary/ui/
+├── DiaryEntry.kt          # 初始頁面 Fragment
 ├── MainActivity.kt        # 主頁，包含側邊導覽
 ├── WelcomeActivity.kt     # 歡迎頁面
 ├── HotlineFragment.kt     # 緊急支援專線 Fragment
-├── DiaryFragment.kt       # 心情日記 Fragment 
+├── DiaryFragment.kt       # 心情日記 Fragment
 ├── MeditationFragment.kt  # 呼吸冥想 Fragment 
 ├── StressFragment.kt      # 壓力量表 Fragment 
+```
 
+## 成員分工
+- App介面設計
+  - 孫郁婷、陳品淇
+- PPT製作
+  - 林俊廷
+- 報告
+  - 吳佳祐
+- 軟體開發
+  - 張喻婷、林千欣
 
-### 下載專案
-```bash
-git clone https://github.com/hsin211/mood_diary.git
-cd diary-app
