@@ -20,6 +20,16 @@
 - **UI 元件**: Material Design (Toolbar, DrawerLayout, NavigationView)  
 - **ViewBinding**: 用於安全地操作 UI 元件  
 
+## 專案結構
+```bash
+app/src/main/java/com/example/diary/ui/
+├── MainActivity.kt        # 主頁，包含側邊導覽
+├── WelcomeActivity.kt     # 歡迎頁面
+├── HotlineFragment.kt     # 緊急支援專線 Fragment
+├── DiaryFragment.kt       # 心情日記 Fragment 
+├── MeditationFragment.kt  # 呼吸冥想 Fragment 
+├── StressFragment.kt      # 壓力量表 Fragment 
+
 
 ### 下載專案
 ```bash
